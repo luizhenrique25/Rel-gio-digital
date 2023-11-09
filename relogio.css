@@ -1,0 +1,61 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(https://conteudo.imguol.com.br/c/entretenimento/5c/2017/07/13/naruto-vs-sasuke-1499950591616_v2_4x3.jpg);
+    height: 100vh;
+    font-family: 'nova';
+
+    
+}
+
+h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 4%;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.relogio {
+    width: 90%;
+    padding: 3% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: .3125rem;
+    background: transparent;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .5);
+}
+
+.relogio div {
+    background: rgba(0, 0, 0, 0.898);
+    color: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 2%;
+    border-radius: 7px;
+    letter-spacing: 3px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .9);
+}
+
+.relogio span {
+    font-size: 4rem;
+}
+
+.relogio span.tempo {
+    font-size: 1rem;
+}
